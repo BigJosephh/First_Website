@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#menu {
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo {
+    font-size: 30px;
+    line-height: 80px;
+    float: left;
+    color: #003666;
+
+}
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid;
+    color: #003666;
+
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #003666;
+
+}
+
+.ikon {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#banner {
+    background-color: pink;
+    height: 600px;
+    background-image: url("../img/macbook-for-photographers-0001.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#black {
+    height: 600px;
+    background-color: black;
+    opacity: 0.25;
+}
+
+#icerik {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+#hakkimizda {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 55px;
+    color: #003666;
+    font-weight: 100;
+    text-shadow: 0px 1px 1px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#container-id {
+    margin: auto;
+    width: 1000px;
+    margin-top: 0px;
+}
+
+#sol {
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 25px;
+    width: 400px;
+    color: #445c6e;
+    margin-bottom: 50px;
+
+}
+
+#h5sol {
+    line-height: 1.6;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+span {
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #445c6e;
+    font-weight: 600;
+    float: left;
+}
+
+#sag {
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: left;
+}
+
+.img-manzara {
+    max-width: 100%;
+    height: auto;
+}
+
+#pson {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #9999;
+    font-weight: 1.8;
+    margin-top: 30px;
+}
+
+#egitimler {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    height: 700px;
+}
+
+.card {
+    width: 324px;
+    height: 700px;
+    border: 1px solid #ddd;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.baslikcard {
+    font-size: 20px;
+    color: #003666;
+}
+
+.cardp {
+    color: #888;
+}
+
+.card:hover {
+    border: 2px solid #003666;
+}
+
+#ekip {
+    background-color: #003666;
+    text-align: center;
+    padding: 50px;
+    height: 800px;
+    margin-top: 200px;
+    float: center;
+    width: 100%;
+}
+
+#ekiph3 {
+    color: white;
+    text-align: center;
+}
+
+.sutun-sol-sag {
+    width: 300px;
+    padding: 50px;
+    float: left;
+}
+
+.oval {
+    border-radius: 50%;
+    width: 400px;
+}
+
+.ekipisim {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.ekipp {
+    font-size: 15px;
+    color: #888;
+}
+
+.ekip-social {
+    font-size: 30px;
+    color: white;
+    transform: translate(4%, -50%);
+
+}
+
+.social {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.social:hover {
+    background-color: #888;
+}
+
+.duzenle-ekip {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sutun-sol-sag-orta {
+    width: 400px;
+    padding: 50px;
+    float: left;
+    transform: translate(-6%, 1%);
+}
+
+.ekip-social-orta {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    transform: translate(-5%, -50%);
+}
+
+.sutun-sol-sag-sol {
+    width: 280px;
+    padding: 50px;
+    float: left;
+    transform: translate(-25%, 1%);
+}
+
+.sutun-sol-sag-sag {
+    width: 300px;
+    padding: 50px;
+    float: left;
+}
+
+.ekip-social-sol {
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    margin-top: 0px;
+    transform: translate(-25%, -25%);
+}
+
+.ekipisim-orta {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 20px;
+    padding: 17px;
+}
+
+.ekipisim-sag {
+    margin-bottom: 12px;
+    color: white;
+    font-size: 20px;
+    padding: 17px;
+}
+
+#iletisim {
+    background: url("../img/sun.jpeg");
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#h3iletisim{
+    color: white;
+}
+
+#iletisimopak{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgrup{
+    width: 1500px;
+    float: left;
+    height: 500px;
+    text-align: left; 
+    display: flex;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+    
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+
+}
+
+.form-control{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #495057;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+#adres{
+    margin-left: 25px;
+    text-align: left;
+    line-height: 35px;
+    margin-top: 30px;
+    color: rgb(9, 34, 28);
+    float: right;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(180, 173, 173);
+    margin-left: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#h4adres{
+    font-size: 28px;
+    padding-bottom: 10px;
+} 
+
+.adresp{
+    font-size: 15px;
+    color: rgb(9, 34, 28);
+}
+
+#copyright{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.social-footer{
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.social-footer:hover{
+    background-color: skyblue;
+}
+
+
+
+
