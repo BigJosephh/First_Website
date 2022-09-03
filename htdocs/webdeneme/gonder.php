@@ -15,10 +15,15 @@ if( isset($_POST['isim'], $_POST['mail'], $_POST['tel'], $_POST['konu'], $_POST[
 
         $ekle = $VeritabaniBaglantisi->prepare("INSERT INTO iletisim(adsoyad, telefon, email, konu, mesaj) VALUES (?, ?, ?, ?, ?)");
         $ekle->bindParam(1, $adsoyad);
-        $ekle->bindParam(3, $telefon);
-        $ekle->bindParam(2, $email);
+        $ekle->bindParam(2, $telefon);
+        $ekle->bindParam(3, $email);
         $ekle->bindParam(4, $konu);
         $ekle->bindParam(5, $mesaj);
         $ekle->execute();
 
+    if($ekle){
+        echo "<script>alert('Uye girisiniz basariyla olusturulmustur.')</script>";
+       
+    }
 ?>
+ <a href="index.php"><input type="submit" value="Anasayfaya don"></a>

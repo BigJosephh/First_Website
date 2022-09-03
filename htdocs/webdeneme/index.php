@@ -177,12 +177,8 @@ require_once("baglanti.php");
                         </div>
                         <div>
                             <div id="adres">
-                                <h4 id="h4adres">Adres: </h4>
-                                <p class="adresp">Seyh Samil Mah.</p>
-                                <p class="adresp">Eylul Sok.</p>
-                                <p class="adresp">Elitkent Sitesi no:33/8</p>
-                                <p class="adresp">0505 293 82 12</p>
-                                <p class="adresp">Email: yusufmert42@hotmail.com</p>
+                                <h4 id="h4adres">Admin Iletisim: </h4>
+                                <p class="adresp">Email: bigjoseph@dereli.org</p>
                             </div>
                         </div>
                     </div>
